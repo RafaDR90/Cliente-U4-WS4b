@@ -73,9 +73,6 @@ function activaJuego(easy,h1,hardMode,posicionAcierto,cuadros,newColors,posicion
             h1.innerHTML=colorAcierto;
             victoria.style.visibility="hidden";
             if(easy){
-                for(let i=0;i<3;i++){
-                    cuadros[i].style.visibility="visible";
-                }
                 for(let i=3;i<6;i++){
                     cuadros[i].style.visibility="hidden";
                 }
