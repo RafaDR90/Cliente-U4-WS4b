@@ -1,0 +1,84 @@
+
+#titulo{
+    background-color: rgb(31, 106, 226);
+    text-align: center;
+    border-radius: 20px;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+#main{
+    background-color: rgb(57, 57, 57);
+    width: 90%;
+    border-radius: 20%;
+    height: 290px;
+    
+}
+
+#coloresEasy{
+    justify-content: center;
+    display: flex;
+}
+.cuadros{
+    margin: 10px;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(57, 57, 57);
+    cursor: pointer; 
+    border-radius:10px;
+}
+
+#coloresHard{
+    justify-content: center;
+    display: flex;
+}
+
+
+#hard{
+    padding: 10px 20px;
+    background-color: #cb0000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#options{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 20%;
+    padding-bottom: 5px;
+
+}
+#newColor{
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-right: 100px;
+}
+#easy{
+    margin-right: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.oculto{
+    visibility: none;
+}
+
+#victoria{
+    font-size: 500%;
+    color: green;
+    text-align: center;
+}
+
+#nivel{
+    border: solid grey;
+    text-align: center;
+    color: rgb(255, 0, 153);
+}
